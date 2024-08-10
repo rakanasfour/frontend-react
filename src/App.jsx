@@ -27,7 +27,7 @@ function App() {
     <>
     
          <div>
-        <h1>Hello from Rakan!</h1>
+        <h1>Hello from Rakan Asfour!</h1>
         <h2>Here is my info:</h2>
         <table>
           <thead>
