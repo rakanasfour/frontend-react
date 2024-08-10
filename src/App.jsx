@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch('http://backend-service.default.svc.cluster.local:80/users');
+        const response = await fetch('http://backend-service.default.svc.cluster.local/users');
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -27,7 +27,7 @@ function App() {
     <>
     
          <div>
-        <h1>Hello from Rakan!</h1>
+        <h1>Hello from Rakan Asfour!</h1>
         <h2>Here is my info:</h2>
         <table>
           <thead>
